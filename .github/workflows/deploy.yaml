@@ -1,54 +1,52 @@
 name: Deploy Website to GitHub Pages
 
+
 on:
   workflow_dispatch:
 
 jobs:
   build_site:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2
         with:
           version: 8
 
-      - name: Install dependencies
-        run: pnpm install
 
-      - name: Build
+      - name: Install dependencies
+        run: |
+          pnpm install
+      - name: build
         env:
-          BASE_PATH: '/'
+          BASE_PATH: '/admin-dashboard'
+          PUBLIC_PB_URL: ${{ vars.PUBLIC_PB_URL }}
+
         run: |
           pnpm run build
           touch build/.nojekyll
 
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
+      - name: Upload Artifacts
+        uses: actions/upload-pages-artifact@v1
         with:
-          name: github-pages
-          path: build/
+          path: 'build/'
 
   deploy:
     needs: build_site
     runs-on: ubuntu-latest
 
     permissions:
-      contents: read
-      pages: write  
-      id-token: write  
+      pages: write
+      id-token: write
 
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         id: deployment
-        uses: actions/deploy-pages@v2
-
+        uses: actions/deploy-pages@v1
