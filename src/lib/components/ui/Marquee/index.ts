@@ -1,0 +1,1 @@
+export { default as MarqueeExample } from "./MarqueeExample.svelte"
