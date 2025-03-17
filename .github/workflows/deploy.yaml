@@ -1,38 +1,35 @@
-name: Deploy Website to GitHub Pages
-
+name: Deploy to GitHub Pages
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   build_site:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
+      - name: Install Node.js
+        uses: actions/setup-node@v4
         with:
-          version: 8
-
+          node-version: 20
+          cache: npm
 
       - name: Install dependencies
-        run: |
-          pnpm install
-      - name: build
-        env:
-          BASE_PATH: '/admin-dashboard'
-          PUBLIC_PB_URL: ${{ vars.PUBLIC_PB_URL }}
+        run: npm install
 
-        run: |
-          pnpm run build
-          touch build/.nojekyll
+      - name: Build project
+        env:
+          BASE_PATH: '/${{ github.event.repository.name }}'
+        run: npm run build
 
       - name: Upload Artifacts
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: 'build/'
+          path: 'build/'  # Ensure this matches your output directory
 
   deploy:
     needs: build_site
@@ -47,6 +44,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4  # ✅ Needed for deployment
+
       - name: Deploy
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
