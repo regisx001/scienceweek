@@ -40,8 +40,8 @@ jobs:
 
     permissions:
       contents: read
-      pages: write  # ✅ Required for GitHub Pages
-      id-token: write  # ✅ Required for authentication
+      pages: write  
+      id-token: write  
 
     environment:
       name: github-pages
