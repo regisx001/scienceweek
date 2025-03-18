@@ -1,12 +1,16 @@
 <script lang="ts">
+	import { TextGenerateEffect } from '../TextGenerateEffect/index.js';
 	import Container from './Container.svelte';
 
 	let card = {
 		title: 'Svelte is Vibe',
 		desc: 'Svelte is javascript framework that is easy to learn and use. '
 	};
-	let className: any = 'p-6';
+	// svelte-ignore export_let_unused
+	let className = 'p-6';
 	export { className as class };
+	const text =
+		"Rejoignez 15,000 scientifiques et passionnés pour 6 jours d'innovation, de découvertes révolutionnaires et de réseautage international.";
 </script>
 
 <div
@@ -23,10 +27,11 @@
 					Explorez l'Avenir de la
 					<span class="gradient-text">Science</span>
 				</h1>
-				<p class="max-w-2xl text-xl leading-relaxed text-gray-400">
-					Rejoignez 15,000 scientifiques et passionnés pour 6 jours d'innovation, de découvertes
-					révolutionnaires et de réseautage international.
-				</p>
+
+				<TextGenerateEffect className=" text-gray-400" words={text} />
+				<!-- <p class="max-w-2xl text-xl leading-relaxed text-gray-400">
+				Rejoignez 15,000 scientifiques et passionnés pour 6 jours d'innovation, de découvertes révolutionnaires et de réseautage international. 
+				</p> -->
 				<div class="flex w-full flex-wrap gap-4">
 					<button
 						class="rounded-full bg-transparent px-8 py-4 font-bold uppercase tracking-widest shadow-[inset_0_0_0_2px_#616467] transition duration-200 hover:bg-[#616467] hover:text-white dark:text-neutral-200"
