@@ -15,7 +15,7 @@
 	let { children } = $props();
 </script>
 
-<ModeWatcher />
+<ModeWatcher defaultMode={'dark'} />
 
 <div class="relative flex w-full items-center justify-center">
 	<div class={'fixed inset-x-0 top-8 z-50 mx-auto max-w-2xl'}>
