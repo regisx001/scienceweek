@@ -7,6 +7,8 @@
 		MenuItem,
 		ProductItem
 	} from '$lib/components/ui/NavbarMenu/index.js';
+
+	import { Footer } from '$lib/components/ui/Footer/index.js';
 	let active: string | null = null;
 	let { children } = $props();
 </script>
@@ -66,3 +68,4 @@
 <main class="relative mt-72 lg:mt-44">
 	{@render children()}
 </main>
+<Footer />
