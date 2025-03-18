@@ -63,6 +63,6 @@
 		</NavbarMenu>
 	</div>
 </div>
-<main class="mt-48">
+<main class="relative mt-72 lg:mt-44">
 	{@render children()}
 </main>

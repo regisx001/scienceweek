@@ -54,18 +54,12 @@
 	</div>
 </div> -->
 
+<EventCards />
+
+<!-- <div class="h-44"></div>
 <GridAndDotBackgrounds>
-	<EventCards />
-	<!-- <p
-		class="relative z-20 bg-gradient-to-b from-neutral-200 to-neutral-500 bg-clip-text py-8 text-4xl font-bold text-transparent sm:text-7xl"
-	>
-		Welcome to science Week
-	</p> -->
+	<SimpleCard1 />
 </GridAndDotBackgrounds>
-<MarqueeExample />
-
-<SimpleCard1 />
-
 <TimeLineExample />
 
 <BorderBeam as={'div'}>
@@ -77,8 +71,9 @@
 			<a
 				href="https://github.com/SikandarJODD"
 				class="relative z-10 rounded-full border border-gray-100 bg-transparent px-3 py-1.5 font-medium text-gray-200"
-				>Svelte-Components</a
 			>
+				Svelte-Components
+			</a>
 		</div>
 		<div class="group relative">
 			<h3 class="mt-3 text-lg font-semibold leading-6 text-gray-200 group-hover:text-gray-50">
@@ -89,9 +84,9 @@
 			</h3>
 			<p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
 				Welcome to Svelte Animation website. This website includes Qualtiy Tailwind CSS and Framer
-				Motion Components. Inspired from <span class="text-gray-300 underline underline-offset-2"
-					>Magic UI</span
-				>
+				Motion Components. Inspired from <span class="text-gray-300 underline underline-offset-2">
+					Magic UI
+				</span>
 				and <span class="text-gray-300 underline underline-offset-2">Luxe</span>
 				Componenets.
 			</p>
@@ -114,6 +109,7 @@
 		</div>
 	</article>
 </BorderBeam>
+<MarqueeExample />
 
 <GlowingStarsBackgroundCard>
 	<GlowingStarsTitle>Svelte</GlowingStarsTitle>
@@ -139,4 +135,4 @@
 		</div>
 	</div>
 </GlowingStarsBackgroundCard>
-<div class="h-screen"></div>
+<div class="h-screen"></div> -->

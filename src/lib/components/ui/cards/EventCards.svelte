@@ -9,72 +9,82 @@
 	export { className as class };
 </script>
 
-<header class="relative overflow-hidden pb-32 pt-24">
-	<div class="mx-auto grid max-w-7xl items-center gap-16 px-4 lg:grid-cols-2">
-		<div class="relative z-10 space-y-8">
-			<h1 class="text-5xl font-bold leading-tight md:text-6xl">
-				Explorez l'Avenir de la
-				<span class="gradient-text">Science</span>
-			</h1>
-			<p class="max-w-2xl text-xl leading-relaxed text-gray-400">
-				Rejoignez 15,000 scientifiques et passionnés pour 6 jours d'innovation, de découvertes
-				révolutionnaires et de réseautage international.
-			</p>
-			<div class="flex flex-wrap gap-4">
-				<button
-					class="rounded-full bg-transparent px-8 py-4 font-bold uppercase tracking-widest shadow-[inset_0_0_0_2px_#616467] transition duration-200 hover:bg-[#616467] hover:text-white dark:text-neutral-200"
-				>
-					S'inscrire Maintenant
-				</button>
+<div
+	class="relative flex h-96 items-center justify-center bg-white pt-96 bg-grid-black/[0.2] dark:bg-black dark:bg-grid-white/[0.2]"
+>
+	<div
+		class="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black"
+	></div>
 
-				<button
-					class="rounded-full bg-transparent px-8 py-4 font-bold uppercase tracking-widest shadow-[inset_0_0_0_2px_#616467] transition duration-200 hover:bg-[#616467] hover:text-white dark:text-neutral-200"
-				>
-					Voir le Programme
-				</button>
-			</div>
-		</div>
-		<div class="relative">
-			<div class="absolute inset-0 -rotate-6 transform rounded-full bg-blue-500/10 blur-3xl"></div>
-			<div class="relative grid grid-cols-2 gap-4">
-				<div class="col-span-1 space-y-4">
-					<Container>
-						<div class="aspect-square overflow-hidden rounded-2xl bg-gray-800">
-							<img
-								src="https://www.wtcmanila.com.ph/wp-content/uploads/2022/08/rear-view-of-audience-in-the-conference-hall-or-se-2021-08-30-06-51-57-utc-1.jpg"
-								class="h-full w-full object-cover"
-							/>
-						</div>
-					</Container>
-					<Container>
-						<div class=" overflow-hidden rounded-2xl bg-gray-800">
-							<img
-								src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSINxkBL8YzQbtIa11V7xykxHRocn2uSgBiw&s"
-								class="h-full w-full object-cover"
-							/>
-						</div>
-					</Container>
-				</div>
-
-				<div class="col-span-1 space-y-4 pt-12">
-					<Container>
-						<div class=" overflow-hidden rounded-2xl bg-gray-800">
-							<img
-								src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxBjQ6cacjUhWGAxXt_j-UgOdQhDAo3ce9Eg&s"
-								class="h-full w-full object-cover"
-							/>
-						</div>
-					</Container>
-					<Container>
-						<div class="aspect-square overflow-hidden rounded-2xl bg-gray-800">
-							<img
-								src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDYjkEzAf8K-tqsa-Sy8JCnDk1VPvrVLzzaA&s"
-								class="h-full w-full object-cover"
-							/>
-						</div>
-					</Container>
+	<header class="relative overflow-hidden pb-32">
+		<div class="grid items-center gap-16 px-4 lg:mx-[10%] lg:grid-cols-3">
+			<div class="relative z-10 col-span-3 max-w-full space-y-8 lg:col-span-1">
+				<h1 class="text-5xl font-bold leading-tight md:text-6xl">
+					Explorez l'Avenir de la
+					<span class="gradient-text">Science</span>
+				</h1>
+				<p class="max-w-2xl text-xl leading-relaxed text-gray-400">
+					Rejoignez 15,000 scientifiques et passionnés pour 6 jours d'innovation, de découvertes
+					révolutionnaires et de réseautage international.
+				</p>
+				<div class="flex w-full flex-wrap gap-4">
+					<button
+						class="rounded-full bg-transparent px-8 py-4 font-bold uppercase tracking-widest shadow-[inset_0_0_0_2px_#616467] transition duration-200 hover:bg-[#616467] hover:text-white dark:text-neutral-200"
+					>
+						S'inscrire Maintenant
+					</button>
+					<button
+						class=" rounded-full bg-transparent px-8 py-4 font-bold uppercase tracking-widest shadow-[inset_0_0_0_2px_#616467] transition duration-200 hover:bg-[#616467] hover:text-white dark:text-neutral-200 lg:hidden"
+					>
+						Programme
+					</button>
 				</div>
 			</div>
+			<div class="relative col-span-3 lg:col-span-2">
+				<div class="relative grid grid-cols-2 gap-4">
+					<div class="col-span-1 space-y-4">
+						<Container>
+							<div class="overflow-hidden rounded-2xl bg-gray-800">
+								<img
+									alt=""
+									src="https://media.licdn.com/dms/image/v2/D4E22AQGPA4K6MUF7BA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1714737746033?e=1745452800&v=beta&t=CEXpok4_5up4lzlcVQAkG8I0uzGI-eBNSClnfLslSPI"
+									class="h-full w-full object-cover"
+								/>
+							</div>
+						</Container>
+						<Container>
+							<div class=" overflow-hidden rounded-2xl bg-gray-800">
+								<img
+									alt=""
+									src="https://media.licdn.com/dms/image/v2/D4E22AQGd63MSiLmuSA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1715534734058?e=1745452800&v=beta&t=2XRzHF1YFomEqKCZvVu4Sl_fRWq3-hvD2tFsWbsfKi4"
+									class="h-full w-full object-cover"
+								/>
+							</div>
+						</Container>
+					</div>
+
+					<div class="col-span-1 space-y-4 pt-12">
+						<Container>
+							<div class=" overflow-hidden rounded-2xl bg-gray-800">
+								<img
+									alt=""
+									src="https://media.licdn.com/dms/image/v2/D4E22AQE-pgMQlOqn8w/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1715685563639?e=1745452800&v=beta&t=hX6gcJvZyw-jLYLD7TPeZcsMceU91ZStVO-gQzeC6bQ"
+									class="h-full w-full object-cover"
+								/>
+							</div>
+						</Container>
+						<Container>
+							<div class="overflow-hidden rounded-2xl bg-gray-800">
+								<img
+									alt=""
+									src="https://media.licdn.com/dms/image/v2/D4E22AQFoa8GF7Tp3WA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1715685556495?e=1745452800&v=beta&t=wGPFh6dPqtrr-cXG_0_Yj6vA5eCO8R1Hy9EJAJ-Gebo"
+									class="h-full w-full object-cover"
+								/>
+							</div>
+						</Container>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>
-</header>
+	</header>
+</div>
