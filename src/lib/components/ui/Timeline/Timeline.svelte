@@ -46,16 +46,16 @@
 </script>
 
 <div class="w-full bg-white font-sans dark:bg-neutral-950 md:px-10" bind:this={containerRef}>
-	<div class="mx-auto max-w-7xl px-4 py-20 md:px-8 lg:px-10">
+	<!-- <div class="mx-[10%] px-4 py-20 md:px-8 lg:px-10">
 		<h2 class="mb-4 max-w-4xl text-lg text-black dark:text-white md:text-4xl">
 			Changelog from my journey
 		</h2>
 		<p class="max-w-sm text-sm text-neutral-700 dark:text-neutral-300 md:text-base">
 			I've been working on Aceternity for the past 2 years. Here's a timeline of my journey.
 		</p>
-	</div>
+	</div> -->
 
-	<div class="relative mx-auto max-w-7xl overflow-hidden pb-20">
+	<div class="relative mx-[10%] overflow-hidden pb-20">
 		{#each timelineData as item, index}
 			<div class="flex justify-start pt-10 md:gap-10 md:pt-40">
 				<div

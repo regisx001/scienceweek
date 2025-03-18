@@ -9,6 +9,7 @@
 	} from '$lib/components/ui/NavbarMenu/index.js';
 
 	import { Footer } from '$lib/components/ui/Footer/index.js';
+	import { base } from '$app/paths';
 	let active: string | null = null;
 	let { children } = $props();
 </script>
@@ -18,7 +19,16 @@
 <div class="relative flex w-full items-center justify-center">
 	<div class={'fixed inset-x-0 top-8 z-50 mx-auto max-w-2xl'}>
 		<NavbarMenu>
-			<MenuItem {active} item="Services">
+			<a href="{base}/" class="font-bold text-neutral-700 hover:text-black dark:text-neutral-200">
+				Home
+			</a>
+			<a
+				href="{base}/program"
+				class=" font-bold text-neutral-700 hover:text-black dark:text-neutral-200"
+			>
+				Programme
+			</a>
+			<!-- <MenuItem {active} item="Services">
 				<div class="flex flex-col space-y-4 text-sm">
 					<HoveredLink href="#">Web Development</HoveredLink>
 					<HoveredLink href="#">Interface Design</HoveredLink>
@@ -61,7 +71,7 @@
 					<HoveredLink href="#">Team</HoveredLink>
 					<HoveredLink href="#">Enterprise</HoveredLink>
 				</div>
-			</MenuItem>
+			</MenuItem> -->
 		</NavbarMenu>
 	</div>
 </div>

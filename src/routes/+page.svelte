@@ -56,13 +56,14 @@
 
 <EventCards />
 
-<!-- <div class="h-44"></div>
-<GridAndDotBackgrounds>
+<div class="h-44"></div>
+<!-- <GridAndDotBackgrounds>
 	<SimpleCard1 />
-</GridAndDotBackgrounds>
-<TimeLineExample />
+</GridAndDotBackgrounds> -->
 
-<BorderBeam as={'div'}>
+<!-- <TimeLineExample /> -->
+
+<!-- <BorderBeam as={'div'}>
 	<article
 		class="relative flex max-w-xl flex-col items-start justify-between rounded-3xl border border-gray-700/70 bg-background p-7"
 	>
@@ -108,10 +109,11 @@
 			</div>
 		</div>
 	</article>
-</BorderBeam>
-<MarqueeExample />
+</BorderBeam> -->
 
-<GlowingStarsBackgroundCard>
+<!-- <MarqueeExample /> -->
+
+<!-- <GlowingStarsBackgroundCard>
 	<GlowingStarsTitle>Svelte</GlowingStarsTitle>
 	<div class="flex items-end justify-between">
 		<GlowingStarsDescription>
@@ -134,5 +136,4 @@
 			</svg>
 		</div>
 	</div>
-</GlowingStarsBackgroundCard>
-<div class="h-screen"></div> -->
+</GlowingStarsBackgroundCard> -->

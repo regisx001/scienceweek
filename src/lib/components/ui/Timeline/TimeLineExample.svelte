@@ -1,21 +1,33 @@
 <script>
 	import Timeline from './Timeline.svelte';
-	import Content1 from './Content1.svelte';
-	import Content2 from './Content2.svelte';
-	import Content3 from './Content3.svelte';
+	import Day01 from './Day01.svelte';
+	import Day02 from './Day02.svelte';
+	import Day03 from './Day03.svelte';
 
 	let timelineData = [
 		{
-			title: 'Svelte 5',
-			content: Content1
+			title: "Journée 1: Cérémonie d'ouverture",
+			content: Day01
 		},
 		{
-			title: 'Early 2023',
-			content: Content2
+			title: 'Journée 2: Informatique',
+			content: Day02
 		},
 		{
-			title: 'Changelog',
-			content: Content3
+			title: 'Journée 3: Mécanique',
+			content: Day03
+		},
+		{
+			title: 'Journée 4: Électrique',
+			content: Day03
+		},
+		{
+			title: 'Journée 5: Entrepreneuriat',
+			content: Day03
+		},
+		{
+			title: 'Journée 6: Clôture & Galerie',
+			content: Day03
 		}
 	];
 </script>
