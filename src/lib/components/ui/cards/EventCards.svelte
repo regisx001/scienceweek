@@ -47,7 +47,7 @@
 			</div>
 			<div class="relative col-span-3 lg:col-span-2">
 				<div class="relative grid grid-cols-2 gap-4">
-					<div class="col-span-1 space-y-4">
+					<div class="col-span-2 space-y-4 lg:col-span-1">
 						<Container>
 							<div class="overflow-hidden rounded-2xl bg-gray-800">
 								<img
@@ -68,7 +68,7 @@
 						</Container>
 					</div>
 
-					<div class="col-span-1 space-y-4 pt-12">
+					<div class="col-span-1 hidden space-y-4 pt-12 lg:block">
 						<Container>
 							<div class=" overflow-hidden rounded-2xl bg-gray-800">
 								<img
