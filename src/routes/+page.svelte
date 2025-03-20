@@ -5,12 +5,7 @@
 	import { SimpleCard1, EventCards } from '$lib/components/ui/cards/index.js';
 	import { MarqueeExample } from '$lib/components/ui/Marquee/index.js';
 	import { TimeLineExample } from '$lib/components/ui/Timeline/index.js';
-	import {
-		NavbarMenu,
-		HoveredLink,
-		MenuItem,
-		ProductItem
-	} from '$lib/components/ui/NavbarMenu/index.js';
+
 	let active: string | null = null;
 	import {
 		GridAndDotBackgrounds,
