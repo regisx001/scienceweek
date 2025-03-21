@@ -12,7 +12,7 @@
 <ModeWatcher track={false} defaultMode={'dark'} />
 <Navbar />
 
-<main class="relative mt-72 lg:mt-44">
+<main class="relative">
 	{@render children()}
 </main>
 <Footer />

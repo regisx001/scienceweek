@@ -45,17 +45,26 @@
 	});
 </script>
 
-<div class="w-full bg-white font-sans dark:bg-neutral-950 md:px-10" bind:this={containerRef}>
-	<!-- <div class="mx-[10%] px-4 py-20 md:px-8 lg:px-10">
-		<h2 class="mb-4 max-w-4xl text-lg text-black dark:text-white md:text-4xl">
-			Changelog from my journey
+<div
+	class="mt-72 w-full bg-white font-sans dark:bg-neutral-950 md:px-10 lg:mt-44"
+	bind:this={containerRef}
+>
+	<div class="px-4 py-20 md:px-8 lg:mx-[10%] lg:px-10">
+		<h2 class="h1 mb-4 max-w-4xl font-bold text-black dark:text-white md:text-4xl">
+			Programme de la Science Week 2024
 		</h2>
-		<p class="max-w-sm text-sm text-neutral-700 dark:text-neutral-300 md:text-base">
-			I've been working on Aceternity for the past 2 years. Here's a timeline of my journey.
-		</p>
-	</div> -->
+		<blockquote
+			class="mt-6 border-l-2 pl-6 italic text-neutral-700 dark:text-neutral-300 md:text-base"
+		>
+			L'événement Science Week couvre plusieurs thématiques scientifiques majeures, offrant une
+			immersion complète dans les dernières avancées technologiques et les découvertes
+			révolutionnaires. Durant 6 jours, explorez des domaines variés allant de l'informatique de
+			pointe à la mécanique innovante, en passant par les énergies du futur et l'entrepreneuriat
+			technologique.
+		</blockquote>
+	</div>
 
-	<div class="relative mx-[10%] overflow-hidden pb-20">
+	<div class="relative overflow-hidden pb-20 lg:mx-[10%]">
 		{#each timelineData as item, index}
 			<div class="flex justify-start pt-10 md:gap-10 md:pt-40">
 				<div
@@ -66,7 +75,7 @@
 					>
 						<div
 							class="h-4 w-4 rounded-full border border-neutral-300 bg-neutral-200 p-2 dark:border-neutral-700 dark:bg-neutral-800"
-						/>
+						></div>
 					</div>
 					<h3
 						class="hidden text-xl font-bold text-neutral-500 dark:text-neutral-500 md:block md:pl-20 md:text-5xl"
@@ -97,7 +106,7 @@
 			<div
 				style="height: {$heightTransform}px; opacity: {$opacityTransform};"
 				class="absolute inset-x-0 top-0 w-[2px] rounded-full bg-gradient-to-t from-purple-500 from-[0%] via-blue-500 via-[10%] to-transparent"
-			/>
+			></div>
 		</div>
 	</div>
 </div>

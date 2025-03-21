@@ -14,7 +14,7 @@
 </script>
 
 <div
-	class="relative mb-96 flex h-96 items-center justify-center bg-white pt-96 bg-grid-black/[0.2] dark:bg-black dark:bg-grid-white/[0.2]"
+	class="relative mb-96 mt-72 flex h-96 items-center justify-center bg-white pt-96 bg-grid-black/[0.2] dark:bg-black dark:bg-grid-white/[0.2] lg:mt-44"
 >
 	<div
 		class="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black"
