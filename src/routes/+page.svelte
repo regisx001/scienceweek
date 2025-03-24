@@ -5,6 +5,7 @@
 	import { SimpleCard1, EventCards } from '$lib/components/ui/cards/index.js';
 	import { MarqueeExample } from '$lib/components/ui/Marquee/index.js';
 	import { TimeLineExample } from '$lib/components/ui/Timeline/index.js';
+	import { SponsorsCards } from '$lib/components/ui/MagicCard/index.js';
 
 	let active: string | null = null;
 	import {
@@ -52,6 +53,8 @@
 <EventCards />
 
 <div class="h-44"></div>
+
+<SponsorsCards />
 <!-- <GridAndDotBackgrounds>
 	<SimpleCard1 />
 </GridAndDotBackgrounds> -->
