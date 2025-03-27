@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import MagicCard from './MagicCard.svelte';
 </script>
 
@@ -13,7 +14,7 @@
 				<div
 					class="flex items-center justify-center gap-1.5 font-semibold transition-all duration-500 group-hover:text-[#AF3485]"
 				>
-					<img class="p-10 lg:p-32" src="/code_212.png" alt="" srcset="" />
+					<img class="p-10 lg:p-32" src="{base}/code_212.png" alt="" srcset="" />
 				</div>
 			</MagicCard>
 		</div>
@@ -25,7 +26,7 @@
 				<div
 					class="flex items-center justify-center gap-1.5 font-semibold transition-all duration-500 group-hover:text-[#0D4192]"
 				>
-					<img class="p-16 lg:p-44" src="/ounousc.png" alt="" srcset="" />
+					<img class="p-16 lg:p-44" src="{base}/ounousc.png" alt="" srcset="" />
 				</div>
 			</MagicCard>
 		</div>
@@ -37,7 +38,7 @@
 				<div
 					class="flex items-center justify-center gap-1.5 font-semibold transition-all duration-500 group-hover:text-white"
 				>
-					<img class="w-44 p-2" src="/oja_logo.png" alt="" srcset="" />
+					<img class="w-44 p-2" src="{base}/oja_logo.png" alt="" srcset="" />
 				</div>
 			</MagicCard>
 		</div>
@@ -49,7 +50,7 @@
 				<div
 					class="flex items-center justify-center gap-1.5 font-semibold transition-all duration-500 group-hover:text-[#0D4192]"
 				>
-					<img class="p-10 lg:p-44" src="/emsi_logo.png" alt="" srcset="" />
+					<img class="p-10 lg:p-44" src="{base}/emsi_logo.png" alt="" srcset="" />
 				</div>
 			</MagicCard>
 		</div>
