@@ -55,6 +55,7 @@
 <div class="h-44"></div>
 
 <SponsorsCards />
+
 <!-- <GridAndDotBackgrounds>
 	<SimpleCard1 />
 </GridAndDotBackgrounds> -->
