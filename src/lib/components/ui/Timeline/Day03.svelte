@@ -1,99 +1,103 @@
-<div class="rounded-lg border bg-background p-6 shadow-sm">
+<div class="rounded-lg border bg-background p-6 shadow-sm transition-all hover:shadow-md">
+	<!-- Event Header -->
+	<div class="mb-6 flex items-center justify-between">
+		<div>
+			<h3 class="text-lg font-semibold text-foreground">Journée Électrique</h3>
+			<p class="text-xs text-muted-foreground">Jeudi 10/04/2025</p>
+		</div>
+		<span class="rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary">
+			10h - 16h
+		</span>
+	</div>
+
 	<!-- Event Description -->
-	<div class="mb-8">
-		<h3 class="text-lg font-semibold text-foreground">Journée 3: Mécanique</h3>
-		<p class="mt-2 text-sm text-muted-foreground">
-			Explorez les dernières innovations en ingénierie mécanique, des systèmes robotiques avancés
-			aux technologies de fabrication de pointe, à travers des conférences techniques et des
-			démonstrations pratiques.
-		</p>
-	</div>
+	<p class="mb-6 text-sm text-muted-foreground">
+		Exploration des systèmes électriques modernes et ateliers interactifs sur la robotique ludique.
+	</p>
 
-	<!-- Timeline Grid -->
-	<div class="grid grid-cols-2 gap-4">
-		<!-- Robotics -->
-		<div class="relative overflow-hidden rounded-lg">
-			<img
-				src="https://source.unsplash.com/600x400/?robotics,industry"
-				alt="Robotique industrielle"
-				class="h-40 w-full object-cover md:h-52 lg:h-60"
-			/>
-			<div
-				class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent p-4"
-			>
-				<div class="absolute bottom-4 left-4">
-					<h4 class="text-sm font-medium text-white">Robotique Avancée</h4>
-					<p class="text-xs text-white/80">09:00 - 10:30</p>
+	<!-- Timeline Cards -->
+	<div class="space-y-3">
+		<!-- Electrical Conference -->
+		<div
+			class="group relative cursor-pointer rounded-lg border p-4 transition-all hover:border-primary hover:bg-primary/5"
+		>
+			<div class="flex items-start justify-between">
+				<div>
+					<h4 class="text-sm font-medium text-foreground group-hover:text-primary">
+						Conférence électrique
+					</h4>
+					<p class="mt-1 text-xs text-muted-foreground">
+						Innovations dans les systèmes électriques intelligents
+					</p>
 				</div>
+				<span class="rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold">10h-12h</span>
+			</div>
+			<div class="mt-2 flex items-center gap-2 text-xs text-muted-foreground">
+				<svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+					/>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+					/>
+				</svg>
+				<span>Amphithéâtre Électrique</span>
 			</div>
 		</div>
 
-		<!-- 3D Printing -->
-		<div class="relative overflow-hidden rounded-lg">
-			<img
-				src="https://source.unsplash.com/600x400/?3d,printing"
-				alt="Impression 3D"
-				class="h-40 w-full object-cover md:h-52 lg:h-60"
-			/>
-			<div
-				class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent p-4"
-			>
-				<div class="absolute bottom-4 left-4">
-					<h4 class="text-sm font-medium text-white">Impression 4D</h4>
-					<p class="text-xs text-white/80">11:00 - 12:30</p>
+		<!-- Robotics Workshop -->
+		<div
+			class="group relative cursor-pointer rounded-lg border p-4 transition-all hover:border-primary hover:bg-primary/5"
+		>
+			<div class="flex items-start justify-between">
+				<div>
+					<h4 class="text-sm font-medium text-foreground group-hover:text-primary">
+						Atelier électrique
+					</h4>
+					<p class="mt-1 text-xs text-muted-foreground">
+						Gaming et compétition de robots (foot avec robots)
+					</p>
 				</div>
+				<span class="rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold">13h30-16h</span>
 			</div>
-		</div>
-
-		<!-- Automotive -->
-		<div class="relative overflow-hidden rounded-lg">
-			<img
-				src="https://source.unsplash.com/600x400/?car,engineering"
-				alt="Ingénierie automobile"
-				class="h-40 w-full object-cover md:h-52 lg:h-60"
-			/>
-			<div
-				class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent p-4"
-			>
-				<div class="absolute bottom-4 left-4">
-					<h4 class="text-sm font-medium text-white">Mécanique Automobile</h4>
-					<p class="text-xs text-white/80">14:00 - 15:30</p>
-				</div>
-			</div>
-		</div>
-
-		<!-- Aerospace -->
-		<div class="relative overflow-hidden rounded-lg">
-			<img
-				src="https://source.unsplash.com/600x400/?aerospace,engineering"
-				alt="Ingénierie aérospatiale"
-				class="h-40 w-full object-cover md:h-52 lg:h-60"
-			/>
-			<div
-				class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent p-4"
-			>
-				<div class="absolute bottom-4 left-4">
-					<h4 class="text-sm font-medium text-white">Aérospatiale</h4>
-					<p class="text-xs text-white/80">16:00 - 17:30</p>
-				</div>
+			<div class="mt-2 flex items-center gap-2 text-xs text-muted-foreground">
+				<svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+					/>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+					/>
+				</svg>
+				<span>Lab Robotique</span>
 			</div>
 		</div>
 	</div>
 
-	<!-- Additional Info -->
-	<div
-		class="mt-6 flex flex-col gap-4 text-sm text-muted-foreground sm:flex-row sm:justify-between"
-	>
+	<!-- Footer Stats -->
+	<div class="mt-6 flex items-center justify-between border-t pt-4 text-sm text-muted-foreground">
 		<div class="flex items-center gap-2">
 			<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 				<path
 					stroke-linecap="round"
 					stroke-linejoin="round"
 					stroke-width="2"
-					d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+					d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
 				/>
 			</svg>
-			<span>4 domaines mécaniques</span>
+			<span>Durée totale: 6h</span>
 		</div>
 		<div class="flex items-center gap-2">
 			<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -101,21 +105,16 @@
 					stroke-linecap="round"
 					stroke-linejoin="round"
 					stroke-width="2"
-					d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
+					d="M13 10V3L4 14h7v7l9-11h-7z"
 				/>
 			</svg>
-			<span>Démonstrations industrielles</span>
-		</div>
-		<div class="flex items-center gap-2">
-			<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-				<path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="2"
-					d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
-				/>
-			</svg>
-			<span>600+ ingénieurs attendus</span>
+			<span>Activités interactives</span>
 		</div>
 	</div>
 </div>
+
+<style>
+	.hover\:bg-primary\/5:hover {
+		background-color: rgba(24, 119, 242, 0.05);
+	}
+</style>

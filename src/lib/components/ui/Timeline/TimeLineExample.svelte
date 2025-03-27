@@ -5,32 +5,27 @@
 	import Day03 from './Day03.svelte';
 	import Day04 from './Day04.svelte';
 	import Day05 from './Day05.svelte';
-	import Day06 from './Day06.svelte';
 
 	let timelineData = [
 		{
-			title: "Journée 1: Cérémonie d'ouverture",
+			title: "Journée 1: Cérémonie d'ouverture & Informatique",
 			content: Day01
 		},
 		{
-			title: 'Journée 2: Informatique',
+			title: 'Journée 2: Mécanique',
 			content: Day02
 		},
 		{
-			title: 'Journée 3: Mécanique',
+			title: 'Journée 3: Électrique',
 			content: Day03
 		},
 		{
-			title: 'Journée 4: Électrique',
+			title: 'Journée 4: Entrepreneuriat',
 			content: Day04
 		},
 		{
-			title: 'Journée 5: Entrepreneuriat',
+			title: 'Journée 5: Clôture & Galerie',
 			content: Day05
-		},
-		{
-			title: 'Journée 6: Clôture & Galerie',
-			content: Day06
 		}
 	];
 </script>

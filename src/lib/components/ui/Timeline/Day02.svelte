@@ -1,89 +1,92 @@
-<div class="rounded-lg border bg-background p-6 shadow-sm">
+<div class="rounded-lg border bg-background p-6 shadow-sm transition-all hover:shadow-md">
+	<!-- Event Header -->
+	<div class="mb-6 flex items-center justify-between">
+		<div>
+			<h3 class="text-lg font-semibold text-foreground">Journée Mécanique</h3>
+			<p class="text-xs text-muted-foreground">Jeudi 10/04/2025</p>
+		</div>
+		<span class="rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary">
+			10h - 16h
+		</span>
+	</div>
+
 	<!-- Event Description -->
-	<div class="mb-8">
-		<h3 class="text-lg font-semibold text-foreground">Journée 2: Informatique</h3>
-		<p class="mt-2 text-sm text-muted-foreground">
-			Plongez dans le monde de l'informatique moderne avec des conférences sur l'intelligence
-			artificielle, des ateliers pratiques de développement, et des démonstrations des dernières
-			technologies numériques.
-		</p>
-	</div>
+	<p class="mb-6 text-sm text-muted-foreground">
+		Une journée dédiée aux innovations en ingénierie mécanique et aux technologies de fabrication
+		avancée.
+	</p>
 
-	<!-- Timeline Grid -->
-	<div class="grid grid-cols-2 gap-4">
-		<!-- AI Conference -->
-		<div class="relative overflow-hidden rounded-lg">
-			<img
-				src="https://source.unsplash.com/600x400/?artificial,intelligence"
-				alt="Conférence IA"
-				class="h-40 w-full object-cover md:h-52 lg:h-60"
-			/>
-			<div
-				class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent p-4"
-			>
-				<div class="absolute bottom-4 left-4">
-					<h4 class="text-sm font-medium text-white">IA Générative</h4>
-					<p class="text-xs text-white/80">09:00 - 10:30</p>
+	<!-- Timeline Cards -->
+	<div class="space-y-3">
+		<!-- Mechanical Conference -->
+		<div
+			class="group relative cursor-pointer rounded-lg border p-4 transition-all hover:border-primary hover:bg-primary/5"
+		>
+			<div class="flex items-start justify-between">
+				<div>
+					<h4 class="text-sm font-medium text-foreground group-hover:text-primary">
+						Conférence mécanique
+					</h4>
+					<p class="mt-1 text-xs text-muted-foreground">
+						Avancées récentes en ingénierie mécanique
+					</p>
 				</div>
+				<span class="rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold">10h-12h</span>
+			</div>
+			<div class="mt-2 flex items-center gap-2 text-xs text-muted-foreground">
+				<svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+					/>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+					/>
+				</svg>
+				<span>Amphithéâtre Mécanique</span>
 			</div>
 		</div>
 
-		<!-- Cybersecurity Workshop -->
-		<div class="relative overflow-hidden rounded-lg">
-			<img
-				src="https://source.unsplash.com/600x400/?cybersecurity,code"
-				alt="Atelier Cybersécurité"
-				class="h-40 w-full object-cover md:h-52 lg:h-60"
-			/>
-			<div
-				class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent p-4"
-			>
-				<div class="absolute bottom-4 left-4">
-					<h4 class="text-sm font-medium text-white">Cybersécurité</h4>
-					<p class="text-xs text-white/80">11:00 - 12:30</p>
+		<!-- Mechanical Workshop -->
+		<div
+			class="group relative cursor-pointer rounded-lg border p-4 transition-all hover:border-primary hover:bg-primary/5"
+		>
+			<div class="flex items-start justify-between">
+				<div>
+					<h4 class="text-sm font-medium text-foreground group-hover:text-primary">
+						Atelier mécanique Code 212
+					</h4>
+					<p class="mt-1 text-xs text-muted-foreground">Session pratique de conception mécanique</p>
 				</div>
+				<span class="rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold">13h30-16h</span>
 			</div>
-		</div>
-
-		<!-- Quantum Computing -->
-		<div class="relative overflow-hidden rounded-lg">
-			<img
-				src="https://source.unsplash.com/600x400/?quantum,computing"
-				alt="Informatique Quantique"
-				class="h-40 w-full object-cover md:h-52 lg:h-60"
-			/>
-			<div
-				class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent p-4"
-			>
-				<div class="absolute bottom-4 left-4">
-					<h4 class="text-sm font-medium text-white">Informatique Quantique</h4>
-					<p class="text-xs text-white/80">14:00 - 15:30</p>
-				</div>
-			</div>
-		</div>
-
-		<!-- Blockchain Demo -->
-		<div class="relative overflow-hidden rounded-lg">
-			<img
-				src="https://source.unsplash.com/600x400/?blockchain,technology"
-				alt="Démonstration Blockchain"
-				class="h-40 w-full object-cover md:h-52 lg:h-60"
-			/>
-			<div
-				class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent p-4"
-			>
-				<div class="absolute bottom-4 left-4">
-					<h4 class="text-sm font-medium text-white">Blockchain</h4>
-					<p class="text-xs text-white/80">16:00 - 17:30</p>
-				</div>
+			<div class="mt-2 flex items-center gap-2 text-xs text-muted-foreground">
+				<svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+					/>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+					/>
+				</svg>
+				<span>Atelier Mécanique 2</span>
 			</div>
 		</div>
 	</div>
 
-	<!-- Additional Info -->
-	<div
-		class="mt-6 flex flex-col gap-4 text-sm text-muted-foreground sm:flex-row sm:justify-between"
-	>
+	<!-- Footer Stats -->
+	<div class="mt-6 flex items-center justify-between border-t pt-4 text-sm text-muted-foreground">
 		<div class="flex items-center gap-2">
 			<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 				<path
@@ -93,7 +96,7 @@
 					d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
 				/>
 			</svg>
-			<span>4 sessions techniques</span>
+			<span>Durée totale: 6h</span>
 		</div>
 		<div class="flex items-center gap-2">
 			<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -101,21 +104,16 @@
 					stroke-linecap="round"
 					stroke-linejoin="round"
 					stroke-width="2"
-					d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+					d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
 				/>
 			</svg>
-			<span>Démonstrations interactives</span>
-		</div>
-		<div class="flex items-center gap-2">
-			<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-				<path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="2"
-					d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
-				/>
-			</svg>
-			<span>700+ participants attendus</span>
+			<span>Équipement fourni</span>
 		</div>
 	</div>
 </div>
+
+<style>
+	.hover\:bg-primary\/5:hover {
+		background-color: rgba(24, 119, 242, 0.05);
+	}
+</style>
