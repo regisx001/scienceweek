@@ -1,4 +1,4 @@
-<div class="rounded-lg border bg-background p-8 shadow-sm">
+<div class="bg-background p-8 shadow-sm">
 	<div class="mx-auto max-w-4xl text-center">
 		<h2 class="mb-6 text-2xl font-bold text-foreground sm:text-3xl">Science Week en Chiffres</h2>
 		<p class="mx-auto mb-12 max-w-2xl text-muted-foreground">

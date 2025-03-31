@@ -4,8 +4,8 @@
 </script>
 
 <section class="mx-[10%]">
-	<h1 class="mb-16 text-5xl font-bold">Nos Partenaires :</h1>
-	<section class=" mb-10 grid grid-rows-1 gap-10 lg:grid-cols-2">
+	<h1 class="mb-16 text-4xl font-bold">Nos Partenaires :</h1>
+	<section class=" mb-10 grid grid-rows-1 gap-10 lg:grid-cols-3">
 		<div class="h-32 lg:h-48">
 			<MagicCard
 				class="group cursor-pointer flex-col items-center justify-center whitespace-nowrap text-4xl shadow-2xl transition-all duration-300 hover:border-[#AF3485]"
