@@ -51,14 +51,14 @@
 >
 	<div class="px-4 py-20 md:px-8 lg:mx-[10%] lg:px-10">
 		<h2 class="h1 mb-4 max-w-4xl font-bold text-black dark:text-white md:text-4xl">
-			Programme de la Science Week 2024
+			Programme de la Science Week 2025
 		</h2>
 		<blockquote
 			class="mt-6 border-l-2 pl-6 italic text-neutral-700 dark:text-neutral-300 md:text-base"
 		>
 			L'événement Science Week couvre plusieurs thématiques scientifiques majeures, offrant une
 			immersion complète dans les dernières avancées technologiques et les découvertes
-			révolutionnaires. Durant 6 jours, explorez des domaines variés allant de l'informatique de
+			révolutionnaires. Durant 5 jours, explorez des domaines variés allant de l'informatique de
 			pointe à la mécanique innovante, en passant par les énergies du futur et l'entrepreneuriat
 			technologique.
 		</blockquote>
