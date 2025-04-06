@@ -65,7 +65,7 @@
 						Session pratique de programmation avancée
 					</p>
 				</div>
-				<span class="rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold"> 12h30-16h </span>
+				<span class="rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold"> 13h30-16h </span>
 			</div>
 			<div class="mt-2 flex items-center gap-2 text-xs text-muted-foreground">
 				<svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">

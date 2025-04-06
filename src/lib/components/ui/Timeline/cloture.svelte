@@ -48,7 +48,7 @@
 						d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
 					/>
 				</svg>
-				<span>Arène Robotique</span>
+				<span>Code 212 Ensa, Tanger</span>
 			</div>
 		</div>
 
@@ -59,7 +59,7 @@
 			<div class="flex items-start justify-between">
 				<div>
 					<h4 class="text-sm font-medium text-foreground group-hover:text-primary">
-						Galerie des projets
+						Galerie et compétition Artistique
 					</h4>
 					<p class="mt-1 text-xs text-muted-foreground">
 						Exposition interactive des réalisations de la semaine
@@ -82,7 +82,7 @@
 						d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
 					/>
 				</svg>
-				<span>Grand Hall d'Exposition</span>
+				<span>Bibliothèque</span>
 			</div>
 		</div>
 
@@ -116,7 +116,7 @@
 						d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
 					/>
 				</svg>
-				<span>Grand Amphithéâtre</span>
+				<span>Faculté des science et Technique</span>
 			</div>
 		</div>
 	</div>

@@ -10,7 +10,7 @@
 	let className = 'p-6';
 	export { className as class };
 	const text =
-		"Rejoignez 15,000 scientifiques et passionnés pour 6 jours d'innovation, de découvertes révolutionnaires et de réseautage international.";
+		"Rejoignez des scientifiques et passionnés pour 5 jours d'innovation, de découvertes révolutionnaires et de réseautage international.";
 </script>
 
 <div

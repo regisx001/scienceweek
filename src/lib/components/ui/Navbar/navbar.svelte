@@ -40,9 +40,9 @@
 	<a href="{base}/">
 		<div class="flex items-center gap-2">
 			<img class="w-10 rounded-full bg-white" src="{base}/favicon.png" alt="" srcset="" />
-			<span class="font-serif text-2xl font-semibold text-foreground"
-				>Legend Club | Science Week</span
-			>
+			<span class="font-serif text-2xl font-semibold text-foreground">
+				The Legends Club | Science Week
+			</span>
 		</div>
 	</a>
 
