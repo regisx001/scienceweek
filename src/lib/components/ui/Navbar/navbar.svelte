@@ -61,7 +61,7 @@
 			Speakers
 		</a> -->
 		<a
-			href="#register"
+			href="{base}/register"
 			class="rounded-full bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90"
 		>
 			Register Now

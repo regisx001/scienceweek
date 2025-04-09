@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { TextGenerateEffect } from '../TextGenerateEffect/index.js';
 	import Container from './Container.svelte';
 
@@ -33,11 +34,12 @@
 				Rejoignez 15,000 scientifiques et passionnés pour 6 jours d'innovation, de découvertes révolutionnaires et de réseautage international. 
 				</p> -->
 				<div class="flex w-full flex-wrap gap-4">
-					<button
+					<a
+						href="{base}/register"
 						class="rounded-full bg-transparent px-8 py-4 font-bold uppercase tracking-widest shadow-[inset_0_0_0_2px_#616467] transition duration-200 hover:bg-[#616467] hover:text-white dark:text-neutral-200"
 					>
 						S'inscrire Maintenant
-					</button>
+					</a>
 					<button
 						class=" rounded-full bg-transparent px-8 py-4 font-bold uppercase tracking-widest shadow-[inset_0_0_0_2px_#616467] transition duration-200 hover:bg-[#616467] hover:text-white dark:text-neutral-200 lg:hidden"
 					>
