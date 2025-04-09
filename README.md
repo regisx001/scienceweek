@@ -1,58 +1,95 @@
-# create-svelte
+# 🔬 Science Week 2025 — *Explorez l'Avenir de la Science*
 
-Everything you need to build a Svelte library, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Welcome to the official repository for **Science Week 2025**, proudly organized by **The Legends Club**.  
+A five-day celebration of innovation, technology, and knowledge-sharing at the heart of our university campus.
 
-Read more about creating a library [in the docs](https://svelte.dev/docs/kit/packaging).
+**[🌐 Live Site →](https://github.com/regisx001/scienceweek)**
 
-## Creating a project
+---
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 📅 About the Event
 
-```bash
-# create a new project in the current directory
-npx sv create
+**Science Week 2025** brings together students, professors, and science enthusiasts to explore cutting-edge scientific topics across seven disciplines, including:
 
-# create a new project in my-app
-npx sv create my-app
-```
+- 🌌 Astronomy
+- 🧬 Biology
+- ⚗️ Chemistry
+- 🏗️ Industrial Engineering
+- ⚙️ Physics
+- 🧮 Mathematics
+- 💻 Computer Science
 
-## Developing
+> More than **500 students**, **30 professors**, **20 projects**, and **10 workshops** participated in our inaugural edition!
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+---
 
-```bash
-npm run dev
+## 🗓️ Event Schedule (April 14–18, 2025)
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+| 📅 Date | 🔍 Theme | 🗣️ Conference | 🧪 Workshop |
+|--------|----------|---------------|-------------|
+| **Mon 14/04** | 🟡 **Opening & Electrical Day** | Introduction to Technological Challenges<br>Smart Electrical Systems | Robot Soccer Competition |
+| **Tue 15/04** | ⚙️ **Mechanical Engineering** | Mechanical Innovations | Mechanical Design Workshop |
+| **Wed 16/04** | 💼 **Entrepreneurship & Economics** | Economic Trends for Innovators | Entrepreneurship Hackathon |
+| **Thu 17/04** | 💻 **Computer Science** | Software Development Trends | Advanced Programming Session |
+| **Fri 18/04** | 🏁 **Closing & Gallery Day** | Professors vs Students Tech Challenge | Final Gallery & Award Ceremony |
 
-Everything inside `src/lib` is part of your library, everything inside `src/routes` can be used as a showcase or preview app.
+> 📍 *Location:* ENSET, Université Abdelmalek Essaâdi, Tanger, Morocco  
+> 🕒 *Time:* 10:00 – 16:00 daily
 
-## Building
+---
 
-To build your library:
+## 🧪 Highlights
 
-```bash
-npm run package
-```
+- 🚀 **Interactive Workshops** across 6 scientific domains  
+- 🎤 **Expert Conferences** led by academic and industry professionals  
+- 🤖 **Hands-on Challenges** like robot football & hackathons  
+- 🖼️ **Final Gallery Exhibition** showcasing student projects  
+- 🏆 **Award Ceremonies** with trophies and recognition  
 
-To create a production version of your showcase app:
+---
 
-```bash
-npm run build
-```
+## 👨‍💻 Tech Stack
 
-You can preview the production build with `npm run preview`.
+This web app is built with modern technologies for a smooth and dynamic experience:
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- [SvelteKit](https://kit.svelte.dev/) — blazing-fast, full-stack Svelte framework
+- [shadcn/ui](https://ui.shadcn.dev/) — beautiful, customizable UI components
+- [Tailwind CSS](https://tailwindcss.com/) — utility-first CSS framework
+- [Vercel](https://vercel.com/) — effortless deployment and hosting
 
-## Publishing
+---
 
-Go into the `package.json` and give your package the desired name through the `"name"` option. Also consider adding a `"license"` field and point it to a `LICENSE` file which you can create from a template (one popular option is the [MIT license](https://opensource.org/license/mit/)).
+## 🧭 Project Navigation
 
-To publish your library to [npm](https://www.npmjs.com):
+- 🔗 [Schedule](#-event-schedule-april-14–18-2025)
+- 🗣️ [Speakers](#)
+- 📝 [Registration](#)
+- 📩 [Contact](#contact)
 
-```bash
-npm publish
-```
+---
+
+## 🤝 Partners
+
+A special thanks to our academic institutions and tech sponsors who made this week possible!
+
+---
+
+## 📬 Contact
+
+Have questions or want to join us?
+
+- 📧 **Email:** lgdfsttclub@gmail.com  
+- 📞 **Phone:** +212 622-188776  
+- 🌐 [Science Week Website](https://github.com/regisx001/scienceweek)
+
+---
+
+## 🛡️ License
+
+© 2025 Science Week. All rights reserved.  
+[Privacy Policy](#) | [Terms of Service](#)
+
+---
+
+> _Promoting scientific innovation through collaboration and education_
+
