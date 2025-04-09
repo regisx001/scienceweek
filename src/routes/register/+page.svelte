@@ -1,19 +1,22 @@
 <script lang="ts">
 </script>
 
+<svelte:head>
+	<title>Science Week | Inscrivez vous maintenant</title>
+</svelte:head>
+
+<div class="h-44"></div>
 <div class="mx-auto max-w-7xl">
 	<!-- Header -->
 	<div class="mb-12 text-center">
-		<h1 class="mb-2 text-3xl font-bold text-slate-100">Upcoming Workshops</h1>
-		<p class="text-slate-400">Browse and register for our technical workshops</p>
+		<h1 class="mb-2 text-3xl font-bold text-slate-100">Ateliers à venir</h1>
+		<p class="text-slate-400">Parcourez et inscrivez-vous à nos ateliers techniques</p>
 	</div>
 
 	<!-- Cards Grid -->
 	<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
 		<!-- Workshop Card 1 -->
-		<div
-			class="rounded-xl border border-slate-800 bg-slate-900 p-6 transition-colors hover:border-slate-700"
-		>
+		<div class="rounded-xl border border-slate-800 p-6 transition-colors hover:border-slate-700">
 			<div class="mb-4 flex items-start justify-between">
 				<span class="rounded-full bg-blue-500/20 px-3 py-1 text-sm text-blue-400">Beginner</span>
 				<span class="text-sm text-slate-500">Free</span>
@@ -41,9 +44,7 @@
 		</div>
 
 		<!-- Workshop Card 2 -->
-		<div
-			class="rounded-xl border border-slate-800 bg-slate-900 p-6 transition-colors hover:border-slate-700"
-		>
+		<div class="rounded-xl border border-slate-800 p-6 transition-colors hover:border-slate-700">
 			<div class="mb-4 flex items-start justify-between">
 				<span class="rounded-full bg-purple-500/20 px-3 py-1 text-sm text-purple-400">Advanced</span
 				>
@@ -72,9 +73,7 @@
 		</div>
 
 		<!-- Workshop Card 3 -->
-		<div
-			class="rounded-xl border border-slate-800 bg-slate-900 p-6 transition-colors hover:border-slate-700"
-		>
+		<div class="rounded-xl border border-slate-800 p-6 transition-colors hover:border-slate-700">
 			<div class="mb-4 flex items-start justify-between">
 				<span class="rounded-full bg-emerald-500/20 px-3 py-1 text-sm text-emerald-400"
 					>Intermediate</span
@@ -104,3 +103,5 @@
 		</div>
 	</div>
 </div>
+
+<div class="h-44"></div>

@@ -8,6 +8,7 @@
 <svelte:head>
 	<title>Science Week | Explorez l'Avenir de la Science</title>
 </svelte:head>
+
 <EventCards />
 
 <Number />
