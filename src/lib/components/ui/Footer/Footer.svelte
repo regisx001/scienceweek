@@ -122,7 +122,7 @@
 
 					<a
 						aria-label="Instagram"
-						href="https://www.instagram.com/thelgdclub.fstt/"
+						href="https://www.tiktok.com/@thelgdclub.fstt"
 						target="_blank"
 						class="-m-2 p-2 text-muted-foreground transition-colors hover:text-foreground"
 					>
@@ -136,10 +136,35 @@
 							stroke-width="2"
 							stroke-linecap="round"
 							stroke-linejoin="round"
-							class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram"
+							class="icon icon-tabler icons-tabler-outline icon-tabler-brand-tiktok"
 							><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path
-								d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"
-							/><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M16.5 7.5v.01" /></svg
+								d="M21 7.917v4.034a9.948 9.948 0 0 1 -5 -1.951v4.5a6.5 6.5 0 1 1 -8 -6.326v4.326a2.5 2.5 0 1 0 4 2v-11.5h4.083a6.005 6.005 0 0 0 4.917 4.917z"
+							/></svg
+						>
+						<!-- Add other social icons -->
+					</a>
+					<a
+						aria-label="Instagram"
+						href="https://www.linkedin.com/in/legends-fstt-club-0723a4336/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=ma"
+						target="_blank"
+						class="-m-2 p-2 text-muted-foreground transition-colors hover:text-foreground"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"
+							><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M8 11v5" /><path
+								d="M8 8v.01"
+							/><path d="M12 16v-5" /><path d="M16 16v-3a2 2 0 1 0 -4 0" /><path
+								d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z"
+							/></svg
 						>
 						<!-- Add other social icons -->
 					</a>
