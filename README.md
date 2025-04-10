@@ -11,14 +11,6 @@ A five-day celebration of innovation, technology, and knowledge-sharing at the h
 
 **Science Week 2025** brings together students, professors, and science enthusiasts to explore cutting-edge scientific topics across seven disciplines, including:
 
-- 🌌 Astronomy
-- 🧬 Biology
-- ⚗️ Chemistry
-- 🏗️ Industrial Engineering
-- ⚙️ Physics
-- 🧮 Mathematics
-- 💻 Computer Science
-
 > More than **500 students**, **30 professors**, **20 projects**, and **10 workshops** participated in our inaugural edition!
 
 ---
@@ -33,7 +25,7 @@ A five-day celebration of innovation, technology, and knowledge-sharing at the h
 | **Thu 17/04** | 💻 **Computer Science** | Software Development Trends | Advanced Programming Session |
 | **Fri 18/04** | 🏁 **Closing & Gallery Day** | Professors vs Students Tech Challenge | Final Gallery & Award Ceremony |
 
-> 📍 *Location:* ENSET, Université Abdelmalek Essaâdi, Tanger, Morocco  
+> 📍 *Location:* Ensa, Université Abdelmalek Essaâdi, Tanger, Morocco  
 > 🕒 *Time:* 10:00 – 16:00 daily
 
 ---
