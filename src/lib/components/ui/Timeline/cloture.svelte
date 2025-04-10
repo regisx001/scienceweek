@@ -18,40 +18,6 @@
 
 	<!-- Timeline Cards -->
 	<div class="space-y-3">
-		<!-- Robot Competition -->
-		<div
-			class="group relative cursor-pointer rounded-lg border p-4 transition-all hover:border-primary hover:bg-primary/5"
-		>
-			<div class="flex items-start justify-between">
-				<div>
-					<h4 class="text-sm font-medium text-foreground group-hover:text-primary">
-						Compétition de robots
-					</h4>
-					<p class="mt-1 text-xs text-muted-foreground">
-						Professeurs vs étudiants - Défi technologique
-					</p>
-				</div>
-				<span class="rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold">10h-12h</span>
-			</div>
-			<div class="mt-2 flex items-center gap-2 text-xs text-muted-foreground">
-				<svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-					<path
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						stroke-width="2"
-						d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-					/>
-					<path
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						stroke-width="2"
-						d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-					/>
-				</svg>
-				<span>Code 212 Ensa, Tanger</span>
-			</div>
-		</div>
-
 		<!-- Gallery Exhibition -->
 		<div
 			class="group relative cursor-pointer rounded-lg border p-4 transition-all hover:border-primary hover:bg-primary/5"
@@ -65,7 +31,7 @@
 						Exposition interactive des réalisations de la semaine
 					</p>
 				</div>
-				<span class="rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold">12h30-14h30</span>
+				<span class="rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold">10h-14h30</span>
 			</div>
 			<div class="mt-2 flex items-center gap-2 text-xs text-muted-foreground">
 				<svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
