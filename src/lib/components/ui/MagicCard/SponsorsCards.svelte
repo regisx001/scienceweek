@@ -67,5 +67,17 @@
 				</div>
 			</MagicCard>
 		</div>
+		<div class="h-32 lg:h-48">
+			<MagicCard
+				class="group cursor-pointer flex-col items-center justify-center whitespace-nowrap text-4xl shadow-2xl transition-all duration-300 hover:border-[#F4C90054]"
+				gradientColor="#ffffff54"
+			>
+				<div
+					class="flex items-center justify-center gap-1.5 font-semibold transition-all duration-500 group-hover:text-[#0D4192]"
+				>
+					<img class="w-28 lg:w-44" src="{base}/fmpt-logo.png" alt="" srcset="" />
+				</div>
+			</MagicCard>
+		</div>
 	</section>
 </section>
