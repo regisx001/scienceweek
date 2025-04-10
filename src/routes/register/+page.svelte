@@ -37,6 +37,15 @@
 			horaire: '13:30h - 16h',
 			lieu: 'Code 212 Ensa ,Tanger',
 			link: 'https://docs.google.com/forms/d/e/1FAIpQLSfGHw8m9cQ1H5d6ta6FWtIqadZxF__f1AX1Bn9UlozhkzGosg/viewform?usp=dialog'
+		},
+		{
+			title: 'Compétition Artistique – Science Week 2025',
+			description:
+				'Exprime ta créativité à travers une œuvre originale autour d’un thème librement inspiré de la science, de l’innovation ou de ton univers personnel.   Les œuvres sélectionnées seront exposées lors de la journée de clôture, le 18 avril 2025, et soumises au vote du public.',
+			date: '18 Avril 2025',
+			horaire: '10h - 13h30',
+			lieu: 'Code 212 Ensa ,Tanger',
+			link: 'https://docs.google.com/forms/d/e/1FAIpQLSfTD6C39V6Th3h6B4yskVah26mAL28HHdmiFVcXAP7jh4pSZw/viewform'
 		}
 	];
 </script>

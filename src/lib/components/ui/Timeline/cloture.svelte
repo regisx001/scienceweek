@@ -25,13 +25,25 @@
 			<div class="flex items-start justify-between">
 				<div>
 					<h4 class="text-sm font-medium text-foreground group-hover:text-primary">
-						Galerie et compétition Artistique
+						Compétition Artistique – Science Week 2025
 					</h4>
 					<p class="mt-1 text-xs text-muted-foreground">
-						Exposition interactive des réalisations de la semaine
+						Exprime ta créativité à travers une œuvre originale autour d’un thème librement inspiré
+						de la science, de l’innovation ou de ton univers personnel. Les œuvres sélectionnées
+						seront exposées lors de la journée de clôture, le 18 avril 2025, et soumises au vote du
+						public.
 					</p>
 				</div>
-				<span class="rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold">10h-14h30</span>
+				<div class="flex flex-col items-center gap-2">
+					<span class="rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold"> 10h-13h30 </span>
+					<a
+						target="_blank"
+						href="https://docs.google.com/forms/d/e/1FAIpQLSfTD6C39V6Th3h6B4yskVah26mAL28HHdmiFVcXAP7jh4pSZw/viewform"
+						class="rounded-lg bg-slate-800 p-2 px-10 text-sm font-bold transition-all hover:bg-slate-600"
+					>
+						register
+					</a>
+				</div>
 			</div>
 			<div class="mt-2 flex items-center gap-2 text-xs text-muted-foreground">
 				<svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -65,7 +77,7 @@
 						Discours de clôture et remise des prix finaux
 					</p>
 				</div>
-				<span class="rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold">15h-16h30</span>
+				<span class="rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold">14h-16h30</span>
 			</div>
 			<div class="mt-2 flex items-center gap-2 text-xs text-muted-foreground">
 				<svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
