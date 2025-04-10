@@ -3,7 +3,7 @@
 Welcome to the official repository for **Science Week 2025**, proudly organized by **The Legends Club**.  
 A five-day celebration of innovation, technology, and knowledge-sharing at the heart of our university campus.
 
-**[🌐 Live Site →](https://github.com/regisx001/scienceweek)**
+**[🌐 Live Site →](https://zarqi.is-a.dev/scienceweek/)**
 
 ---
 
