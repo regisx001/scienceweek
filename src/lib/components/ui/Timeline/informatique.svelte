@@ -33,7 +33,7 @@
 						une médecine plus précise, personnalisée et accessible à tous.
 					</p>
 				</div>
-				<span class="z-50 rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold"> 10h-12h </span>
+				<span class="z-50 rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold"> 10h-13h </span>
 			</div>
 			<div class="mt-2 flex items-center gap-2 text-xs text-muted-foreground">
 				<svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
