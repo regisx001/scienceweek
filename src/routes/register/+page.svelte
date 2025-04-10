@@ -18,7 +18,7 @@
 			date: '15 Avril 2025',
 			horaire: '13:30h - 16h',
 			lieu: 'Code 212 Ensa ,Tanger',
-			link: 'https://docs.google.com/forms/d/e/1FAIpQLSd8qfz0YDvMs1FXJJVD4w49WhGljvCawhMU-VjcPtyNo05mGQ/viewform'
+			link: 'https://docs.google.com/forms/d/e/1FAIpQLSeZ7PW1cWs7lYrUtTKoya5kM8twKubZ2nk6XxcGkSHeGUmszw/viewform?usp=dialog'
 		},
 		{
 			title: 'Compétition entrepreneuriale — LEGENDS Science Week 2025',
