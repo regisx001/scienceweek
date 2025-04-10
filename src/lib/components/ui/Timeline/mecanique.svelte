@@ -59,11 +59,25 @@
 			<div class="flex items-start justify-between">
 				<div>
 					<h4 class="text-sm font-medium text-foreground group-hover:text-primary">
-						Atelier mécanique
+						Atelier Mécanique : Impression 3D – Crée ton prototype
 					</h4>
-					<p class="mt-1 text-xs text-muted-foreground">Session pratique de conception mécanique</p>
+					<p class="mt-1 text-xs text-muted-foreground">
+						Découvrez les bases de l’impression 3D et réalisez un prototype personnalisé. L’atelier
+						vous initie aux logiciels de modélisation, à la logique de fabrication additive et à la
+						gestion d'une imprimante 3D. Une activité pour les créateurs et futurs ingénieurs du
+						concret !
+					</p>
 				</div>
-				<span class="rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold">13h30-16h</span>
+				<div class="flex flex-col items-center gap-2">
+					<span class="rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold"> 13h30-16h </span>
+					<a
+						target="_blank"
+						href="https://docs.google.com/forms/d/e/1FAIpQLSeZ7PW1cWs7lYrUtTKoya5kM8twKubZ2nk6XxcGkSHeGUmszw/viewform?usp=dialog"
+						class="rounded-lg bg-slate-800 p-2 px-10 text-sm font-bold transition-all hover:bg-slate-600"
+					>
+						register
+					</a>
+				</div>
 			</div>
 			<div class="mt-2 flex items-center gap-2 text-xs text-muted-foreground">
 				<svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">

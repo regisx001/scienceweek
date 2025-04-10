@@ -25,10 +25,12 @@
 			<div class="flex items-start justify-between">
 				<div>
 					<h4 class="text-sm font-medium text-foreground group-hover:text-primary">
-						Conférence en informatique
+						Médecine 3.0 : Quand l'Intelligence Artificielle Redéfinit les Soins
 					</h4>
 					<p class="mt-1 text-xs text-muted-foreground">
-						Tendances actuelles en développement logiciel
+						Explorez la révolution silencieuse qui transforme le monde médical, où l'intelligence
+						artificielle repousse les limites du diagnostic, du traitement et de la prévention pour
+						une médecine plus précise, personnalisée et accessible à tous.
 					</p>
 				</div>
 				<span class="z-50 rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold"> 10h-12h </span>
@@ -59,13 +61,23 @@
 			<div class="flex items-start justify-between">
 				<div>
 					<h4 class="text-sm font-medium text-foreground group-hover:text-primary">
-						Atelier Informatique
+						Atelier Informatique : Épilepsie et Deep Learning
 					</h4>
 					<p class="mt-1 text-xs text-muted-foreground">
-						Session pratique de programmation avancée
+						Cet atelier vise à explorer l'application du Deep Learning dans la détection et
+						l'analyse des crises d'épilepsie
 					</p>
 				</div>
-				<span class="rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold"> 13h30-16h </span>
+				<div class="flex flex-col items-center gap-2">
+					<span class="rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold"> 13h30-16h </span>
+					<a
+						target="_blank"
+						href="https://docs.google.com/forms/d/e/1FAIpQLSfGHw8m9cQ1H5d6ta6FWtIqadZxF__f1AX1Bn9UlozhkzGosg/viewform"
+						class="rounded-lg bg-slate-800 p-2 px-10 text-sm font-bold transition-all hover:bg-slate-600"
+					>
+						register
+					</a>
+				</div>
 			</div>
 			<div class="mt-2 flex items-center gap-2 text-xs text-muted-foreground">
 				<svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">

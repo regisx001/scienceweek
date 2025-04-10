@@ -92,11 +92,24 @@
 			<div class="flex items-start justify-between">
 				<div>
 					<h4 class="text-sm font-medium text-foreground group-hover:text-primary">
-						Atelier électrique
+						Atelier Électrique : Robot Foot – Jouez avec des robots footballeurs !
 					</h4>
-					<p class="mt-1 text-xs text-muted-foreground">compétition de robots (foot avec robots)</p>
+					<p class="mt-1 text-xs text-muted-foreground">
+						Entrez dans l’univers fascinant de la robotique appliquée au sport ! Cet atelier vous
+						permet de programmer et contrôler des robots qui s'affrontent dans un match de football.
+						Animé par des passionnés de robotique, c’est l’occasion d’apprendre en jouant !
+					</p>
 				</div>
-				<span class="rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold">14h-16h</span>
+				<div class="flex flex-col items-center gap-2">
+					<span class="rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold"> 14h-16h </span>
+					<a
+						target="_blank"
+						href="https://docs.google.com/forms/d/e/1FAIpQLSd8qfz0YDvMs1FXJJVD4w49WhGljvCawhMU-VjcPtyNo05mGQ/viewform"
+						class="rounded-lg bg-slate-800 p-2 px-10 text-sm font-bold transition-all hover:bg-slate-600"
+					>
+						register
+					</a>
+				</div>
 			</div>
 			<div class="mt-2 flex items-center gap-2 text-xs text-muted-foreground">
 				<svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">

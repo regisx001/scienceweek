@@ -59,13 +59,26 @@
 			<div class="flex items-start justify-between">
 				<div>
 					<h4 class="text-sm font-medium text-foreground group-hover:text-primary">
-						Competition d'entrepreneuriat
+						Compétition entrepreneuriale — LEGENDS Science Week 2025
 					</h4>
 					<p class="mt-1 text-xs text-muted-foreground">
-						Création de projets innovants avec récompenses et trophées
+						Dans le cadre de la Journée Entrepreneuriat de la Science Week (16 avril 2025), le Club
+						Legends organise un Compétition entrepreneuriale destiné à faire émerger des idées
+						innovantes, concrètes et à fort impact. Les participants auront une journée pour former
+						une équipe, concevoir un projet, travailler sur un prototype ou business model, et le
+						présenter devant un jury.
 					</p>
 				</div>
-				<span class="rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold">12h30-16h</span>
+				<div class="flex flex-col items-center gap-2">
+					<span class="rounded-full bg-secondary/10 px-2 py-1 text-xs font-bold"> 12h30-16h </span>
+					<a
+						target="_blank"
+						href="https://docs.google.com/forms/d/e/1FAIpQLSecmmJ2dfWleyY2L0X64vjfi1KDMCsm9U4k0F2vZayU8J-U0A/viewform"
+						class="rounded-lg bg-slate-800 p-2 px-10 text-sm font-bold transition-all hover:bg-slate-600"
+					>
+						register
+					</a>
+				</div>
 			</div>
 			<div class="mt-2 flex items-center gap-2 text-xs text-muted-foreground">
 				<svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
