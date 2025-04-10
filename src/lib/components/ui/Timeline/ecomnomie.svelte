@@ -59,7 +59,7 @@
 			<div class="flex items-start justify-between">
 				<div>
 					<h4 class="text-sm font-medium text-foreground group-hover:text-primary">
-						Hackathon d'entrepreneuriat
+						Competition d'entrepreneuriat
 					</h4>
 					<p class="mt-1 text-xs text-muted-foreground">
 						Création de projets innovants avec récompenses et trophées
