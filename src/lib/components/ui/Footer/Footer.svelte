@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <footer class="border-t bg-background/95">
 	<div class="px-4 py-12 sm:py-16 lg:mx-[10%]">
 		<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
@@ -29,22 +33,22 @@
 				<h3 class="text-sm font-medium">Navigation</h3>
 				<nav class="space-y-2">
 					<a
-						href="#programme"
+						href="{base}/"
 						class="block py-1 text-sm text-muted-foreground transition-colors hover:text-foreground"
 					>
-						Schedule
+						Home
 					</a>
 					<a
-						href="#speakers"
+						href="{base}/register"
 						class="block py-1 text-sm text-muted-foreground transition-colors hover:text-foreground"
 					>
-						Speakers
+						Inscription
 					</a>
 					<a
-						href="#registration"
+						href="{base}/program"
 						class="block py-1 text-sm text-muted-foreground transition-colors hover:text-foreground"
 					>
-						Registration
+						Programme
 					</a>
 				</nav>
 			</div>
@@ -177,10 +181,16 @@
 			<div class="flex flex-col items-center gap-4 text-center sm:flex-row sm:justify-between">
 				<p class="text-sm text-muted-foreground">© 2025 Science Week. All rights reserved.</p>
 				<div class="flex flex-wrap justify-center gap-4">
-					<a href="#" class="text-sm text-muted-foreground transition-colors hover:text-foreground">
+					<a
+						href="##"
+						class="text-sm text-muted-foreground transition-colors hover:text-foreground"
+					>
 						Privacy Policy
 					</a>
-					<a href="#" class="text-sm text-muted-foreground transition-colors hover:text-foreground">
+					<a
+						href="##"
+						class="text-sm text-muted-foreground transition-colors hover:text-foreground"
+					>
 						Terms of Service
 					</a>
 				</div>
