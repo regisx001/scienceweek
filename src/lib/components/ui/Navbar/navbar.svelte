@@ -38,8 +38,9 @@
 >
 	<!-- Logo -->
 	<a href="{base}/">
-		<div class="flex items-center gap-2">
-			<img class="w-10 rounded-full bg-white" src="{base}/favicon.png" alt="" srcset="" />
+		<div class="relative flex items-center gap-2">
+			<div class="absolute h-14 w-14 rounded-xl bg-white"></div>
+			<img class="z-10 w-14 rounded-full" src="{base}/favicon.png" alt="" srcset="" />
 			<span class="font-serif text-2xl font-semibold text-foreground">
 				The Legends Club | Science Week
 			</span>
