@@ -39,9 +39,9 @@
 	<!-- Logo -->
 	<a href="{base}/">
 		<div class="relative flex items-center gap-2">
-			<div class="absolute h-14 w-14 rounded-xl bg-white"></div>
-			<img class="z-10 w-14 rounded-full" src="{base}/favicon.png" alt="" srcset="" />
-			<span class="font-serif text-2xl font-semibold text-foreground">
+			<div class="absolute h-8 w-8 rounded bg-white lg:h-14 lg:w-14 lg:rounded-xl"></div>
+			<img class="z-10 w-8 rounded-full lg:w-14" src="{base}/favicon.png" alt="" srcset="" />
+			<span class="font-serif text-sm font-semibold text-foreground lg:text-2xl">
 				The Legends Club | Science Week
 			</span>
 		</div>
@@ -68,17 +68,6 @@
 			S'inscrire Maintenant
 		</a>
 	</div>
-
-	<!-- Mobile Menu -->
-	<button aria-label="button" class="text-muted-foreground md:hidden">
-		<svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
-			<path
-				stroke-linecap="round"
-				stroke-linejoin="round"
-				d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-			/>
-		</svg>
-	</button>
 </nav>
 
 <style>
