@@ -40,11 +40,12 @@
 					>
 						S'inscrire Maintenant
 					</a>
-					<button
+					<a
+						href="{base}/program"
 						class=" rounded-full bg-transparent px-8 py-4 font-bold uppercase tracking-widest shadow-[inset_0_0_0_2px_#616467] transition duration-200 hover:bg-[#616467] hover:text-white dark:text-neutral-200 lg:hidden"
 					>
 						Programme
-					</button>
+					</a>
 				</div>
 			</div>
 			<div class="relative col-span-3 lg:col-span-2">
