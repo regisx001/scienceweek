@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Workshop } from '$lib/components/ui/workshop/index.js';
-
+	import { SimpleCard3, SimpleCard2, SimpleCard1 } from '$lib/components/ui/cards/index.js';
 	let data: WorkshopProps[] = [
 		{
 			title: '⚡ Atelier Électrique : Robot Foot – Jouez avec des robots footballeurs !',
@@ -67,7 +67,11 @@
 		<!-- Workshop Card 1 -->
 
 		{#each data as workshop, id}
-			<Workshop {...workshop} />
+			<SimpleCard3>
+				<SimpleCard1>
+					<Workshop {...workshop} />
+				</SimpleCard1>
+			</SimpleCard3>
 			{#if data.length - 1 !== id}
 				<div class="flex h-20 items-center justify-center">
 					<hr class="h-4 w-32 rotate-90 border bg-slate-800" />

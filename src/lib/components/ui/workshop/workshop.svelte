@@ -2,9 +2,7 @@
 	let workshopData: WorkshopProps = $props();
 </script>
 
-<div
-	class="z-50 rounded-xl border border-slate-800 bg-slate-950 p-6 transition-colors hover:border-slate-700"
->
+<div class="z-50 border border-slate-800 p-6 transition-colors hover:border-slate-700">
 	<h3 class="mb-2 text-xl font-semibold text-slate-100">{workshopData.title}</h3>
 
 	<div class="mb-4 flex items-center gap-2 text-slate-400">
